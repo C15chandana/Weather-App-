@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container"
+    <div class="weather-card">
+      <div class="search-box">
+        <input type="text" id="city" placeholder="Enter city..." />
+        <button onclick="getWeather()"><img src="https://img.icons8.com/ios-filled/20/000000/search.png"/></button>
+      </div>
+      <div class="weather-info" id="weatherInfo">
+        <img src="https://img.icons8.com/color/96/000000/partly-cloudy-day.png" id="weatherIcon" />
+        <h1 id="temp">--°C</h1>
+        <h2 id="cityName">City</h2>
+        <p><span id="humidity">--%</span> Humidity</p>
+        <p><span id="wind">-- km/h</span> Wind</p>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
